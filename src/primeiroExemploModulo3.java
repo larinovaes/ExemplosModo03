@@ -36,11 +36,11 @@ public class primeiroExemploModulo3 {
                     System.out.println("Por favor informe o preço do produto selecionado");
                     Double preco = leitor.nextDouble();
                     System.out.println("Produto adicionado ao carrinho!");
-                    produtos.put(nomeDoProduto,preco);
+                    produtos.put(nomeDoProduto, preco);
                     break;
 
                 case 2:
-                    for (String listaDeProdutos: produtos.keySet()) {
+                    for (String listaDeProdutos : produtos.keySet()) {
                         System.out.println("Todos os produtos selecionados: ");
                         System.out.println("Produto: " + listaDeProdutos + "\nPreço: " + produtos.get(listaDeProdutos));
                     }
