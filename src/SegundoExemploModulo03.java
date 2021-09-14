@@ -42,7 +42,7 @@ public class SegundoExemploModulo03 {
             } else if (menu == 2) {
                 for (String vestibulandos : alunos.keySet()) {
                     System.out.println("Todos os alunos cadastrados: ");
-                    System.out.println("Número da Matrículo:" + vestibulandos + "\nMédia: " + alunos.get(vestibulandos));
+                    System.out.println("Número da Matrículo:" + vestibulandos + "\n Media: " + alunos.get(vestibulandos));
                 }
             } else if (menu == 3) {
                 System.out.println("Para excluir candidato digite o número da sua matrícula:");
