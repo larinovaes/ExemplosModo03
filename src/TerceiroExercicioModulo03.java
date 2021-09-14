@@ -37,8 +37,14 @@ public class TerceiroExercicioModulo03 {
                 cardapio.put(pratoCadastrado, ingredientesUtilizados);
             } else if (menu == 2) {
                 for (String listaDePratos : cardapio.keySet()) {
-                    System.out.println("Todos os pratos do cardapio:\n\t" + listaDePratos);
+                    System.out.println("Todos os pratos do cardapio:\n\t" + listaDePratos + "\t\nIngredientes: " + cardapio.get(listaDePratos));
                 }
+            } else if (menu == 3) {
+                System.out.println("Digite o nome do prato que deseja excluir: ");
+                String pratoParaExcluir = leitor.nextLine();
+                cardapio.remove(pratoParaExcluir);
+                System.out.println("O prato foi excluido do cardapio!");
+
             }
         }
     }
