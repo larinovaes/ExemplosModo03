@@ -9,7 +9,7 @@ import java.util.Scanner;
  * cadastrados ou excluir um produto pelo nome.
  */
 
-public class primeiroExemploModulo3 {
+public class PrimeiroExemploModulo3 {
 
 
     public static void main(String[] args) {
