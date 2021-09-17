@@ -5,16 +5,13 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Contato objeto_contato = new Contato();
+        Contato objeto = new Contato("André", "72347283", "laseuw@ajshd", 93);
 
-        objeto_contato.nome = "Larissa";
-        objeto_contato.email = "Larissa@laridds";
-        objeto_contato.idade = 22;
-        objeto_contato.telefone = "1512-4536";
+        System.out.println(objeto.nome);
+        System.out.println(objeto.telefone);
+        System.out.println(objeto.email);
+        System.out.println(objeto.idade);
 
-        System.out.println(objeto_contato.nome);
-        System.out.println(objeto_contato.email);
-        System.out.println(objeto_contato.idade);
-        System.out.println(objeto_contato.telefone);
+
     }
 }
